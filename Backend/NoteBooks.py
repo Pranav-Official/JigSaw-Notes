@@ -8,6 +8,7 @@ def GetNoteBooks(NoteBooksCollection):
         a.append(Book["subject"])
     string = json.dumps(a, indent=3,sort_keys=False)
     print(string)
+    return string
 
 
 def GetChapters(NoteBooksCollection,SubjectName,ChapterIndex):
